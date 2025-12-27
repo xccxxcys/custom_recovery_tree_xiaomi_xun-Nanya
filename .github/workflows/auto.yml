@@ -5,7 +5,7 @@ on:
       MANIFEST_BRANCH:
         description: '🌿 OrangeFox Manifest Branch'
         required: true
-        default: '14.1'
+        default: '12.1'
         type: choice
         options:
           - 12.1
@@ -33,7 +33,7 @@ on:
       LUNCH_TARGET:
         description: "🛠️ lunch twrp_ (default same as device name)"
         required: false
-        default: 'liuqin'
+        default: 'xun'
       BUILD_PARTITION:
         description: '🎯 Specify your Build Target'
         required: true
