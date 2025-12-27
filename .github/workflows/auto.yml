@@ -71,7 +71,7 @@ on:
         description: '🧩 Apply ymdzq ofrp 12.1 patches'
         type: boolean
         required: true
-        default: false
+        default: true
 
 jobs:
   build:
